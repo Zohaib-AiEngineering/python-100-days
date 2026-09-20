@@ -36,10 +36,14 @@ if __name__ == "__main__":
         status="Active Learner"
     )
 
-    # Printing Structured Output
-    print("--- USER PROFILE SUMMARY ---")
-    print(f"User Name   : {user_data['user']}")
-    print(f"Total Skills: {user_data['skills_count']}")
-    print(f"Skill List  : {user_data['skills']}")
-    print(f"Role        : {user_data['details'].get('role')}")
-    print(f"Location    : {user_data['details'].get('location')}")
+    # Printing Structured Output (Clean & Formatted)
+    print("===================================")
+    print("       USER PROFILE SUMMARY        ")
+    print("===================================")
+    print(f"User Name    : {user_data['user']}")
+    print(f"Total Skills : {user_data['skills_count']}")
+    print(f"Skills List  : {', '.join(user_data['skills'])}")
+    print(f"Role         : {user_data['details'].get('role')}")
+    print(f"Location     : {user_data['details'].get('location')}")
+    print(f"Status       : {user_data['details'].get('status')}")
+    print("===================================")
