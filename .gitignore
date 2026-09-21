@@ -1,0 +1,6 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore auto-generated JSON logs if needed (optional)
+# ai_system_logs.json
