@@ -5,6 +5,11 @@ response = requests.get(url)
 soup = BeautifulSoup(response.text, "html.parser")
 
 
-print("Heading:", soup.h1.text)
-print("paragraph:", soup.p.text)
-print("Title:",soup.title.text)
+links = soup.find_all("a")
+print(links)
+for link in links:
+    print("text:", link.text)
+
+    print("Url:",link.get("href"))
+    print("-"* 20 )
+    
