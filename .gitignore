@@ -4,3 +4,7 @@ __pycache__/
 
 # Ignore auto-generated JSON logs if needed (optional)
 # ai_system_logs.json
+
+
+.env
+.venv/
