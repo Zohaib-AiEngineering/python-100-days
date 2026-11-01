@@ -40,3 +40,8 @@ websockets==16.1.1
 google-genai
 python-dotenv
 beautifulsoup4
+streamlit
+pypdf
+python-dotenv
+langchain-text-splitters
+langchain-google-genai
