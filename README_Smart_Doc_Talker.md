@@ -7,6 +7,13 @@ It allows users to upload a PDF, extract its text, split the content into smalle
 ## 🚀 Live Demo
 
 **Live Application:** https://zohaib001.streamlit.app
+## 🎥 Project Demo Video
+
+Watch the complete working demo of Smart Doc-Talker:
+
+[![Smart Doc-Talker Demo](https://img.youtube.com/vi/grqTu_ie6NU/0.jpg)](https://youtu.be/grqTu_ie6NU)
+
+[Watch Demo on YouTube](https://youtu.be/grqTu_ie6NU)
 
 ## ✨ Features
 
