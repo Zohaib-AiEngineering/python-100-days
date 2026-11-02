@@ -775,6 +775,6 @@ if uploaded_file:
 
                 st.error(f"Error while generating answer: {e}")
 
-else:
+else: 
 
     st.info("Please upload a PDF to start chatting.")
